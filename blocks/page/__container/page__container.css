@@ -1,0 +1,18 @@
+.page__container {
+    max-width: 880px;
+    margin: auto;
+}
+
+@media screen and (min-width: 581px) and (max-width: 900px) {
+    .page__container {
+        max-width: 581px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 580px) {
+    .page__container {
+        max-width: 282px;
+        margin: auto;
+    }
+}
